@@ -16,6 +16,9 @@
 		ECCCCC032893773400FFFF69 /* appExpressibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCCCC022893773400FFFF69 /* appExpressibleTests.swift */; };
 		ECCCCC0D2893773400FFFF69 /* appExpressibleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCCCC0C2893773400FFFF69 /* appExpressibleUITests.swift */; };
 		ECCCCC0F2893773400FFFF69 /* appExpressibleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCCCC0E2893773400FFFF69 /* appExpressibleUITestsLaunchTests.swift */; };
+		ECCCCC1D2893793A00FFFF69 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCCCC1C2893793A00FFFF69 /* Date+Extension.swift */; };
+		ECCCCC1F28937B5F00FFFF69 /* UILayout+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCCCC1E28937B5F00FFFF69 /* UILayout+Extension.swift */; };
+		ECCCCC2128937DBD00FFFF69 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCCCC2028937DBD00FFFF69 /* URL+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		ECCCCC082893773400FFFF69 /* appExpressibleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appExpressibleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCCCC0C2893773400FFFF69 /* appExpressibleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appExpressibleUITests.swift; sourceTree = "<group>"; };
 		ECCCCC0E2893773400FFFF69 /* appExpressibleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appExpressibleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ECCCCC1C2893793A00FFFF69 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		ECCCCC1E28937B5F00FFFF69 /* UILayout+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILayout+Extension.swift"; sourceTree = "<group>"; };
+		ECCCCC2028937DBD00FFFF69 /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		ECCCCBEA2893773300FFFF69 /* appExpressible */ = {
 			isa = PBXGroup;
 			children = (
+				ECCCCC1B2893791000FFFF69 /* Extensions */,
 				ECCCCBEB2893773300FFFF69 /* AppDelegate.swift */,
 				ECCCCBED2893773300FFFF69 /* SceneDelegate.swift */,
 				ECCCCBEF2893773300FFFF69 /* ViewController.swift */,
@@ -125,6 +132,16 @@
 				ECCCCC0E2893773400FFFF69 /* appExpressibleUITestsLaunchTests.swift */,
 			);
 			path = appExpressibleUITests;
+			sourceTree = "<group>";
+		};
+		ECCCCC1B2893791000FFFF69 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ECCCCC1C2893793A00FFFF69 /* Date+Extension.swift */,
+				ECCCCC1E28937B5F00FFFF69 /* UILayout+Extension.swift */,
+				ECCCCC2028937DBD00FFFF69 /* URL+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECCCCC1F28937B5F00FFFF69 /* UILayout+Extension.swift in Sources */,
 				ECCCCBF02893773300FFFF69 /* ViewController.swift in Sources */,
+				ECCCCC1D2893793A00FFFF69 /* Date+Extension.swift in Sources */,
 				ECCCCBEC2893773300FFFF69 /* AppDelegate.swift in Sources */,
 				ECCCCBEE2893773300FFFF69 /* SceneDelegate.swift in Sources */,
+				ECCCCC2128937DBD00FFFF69 /* URL+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
